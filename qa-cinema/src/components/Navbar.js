@@ -16,11 +16,15 @@ function Navbar() {
     <>
     <Nav>
       <NavLink to='/'>
-    
-      </NavLink>
+  
+     </NavLink>
       <Bars />
       <NavMenu>
-        <NavLink to='/home' activeStyle>
+      <NavLink to='/home' activeStyle>
+          Home
+        </NavLink>
+
+        <NavLink to='/About' activeStyle>
           About
         </NavLink>
         <NavLink to='/movies' activeStyle>
@@ -29,8 +33,11 @@ function Navbar() {
         <NavLink to='/contact-us' activeStyle>
           Contact Us
         </NavLink>
+        <NavLink to='/listing' activeStyle>
+          Listings
+        </NavLink>
         <NavLink to='/Book' activeStyle>
-          Booking
+          Book
         </NavLink>
     
       </NavMenu>
