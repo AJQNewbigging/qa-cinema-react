@@ -27,17 +27,17 @@ function Navbar() {
         <NavLink to='/About' activeStyle>
           About
         </NavLink>
-        <NavLink to='/movies' activeStyle>
-          Movies
+        <NavLink to='/listings' activeStyle>
+          Listings
         </NavLink>
         <NavLink to='/contact-us' activeStyle>
           Contact Us
         </NavLink>
-        <NavLink to='/listing' activeStyle>
-          Listings
+       <NavLink to='/Book' activeStyle>
+          Book Now
         </NavLink>
-        <NavLink to='/Book' activeStyle>
-          Book
+        <NavLink to='/Location' activeStyle>
+          Location
         </NavLink>
     
       </NavMenu>
