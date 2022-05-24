@@ -5,8 +5,6 @@ function MovieCard() {
 
     <div className='movie-card'>
     <h4>hello</h4>
-
-
     </div>
   
 

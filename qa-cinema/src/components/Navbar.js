@@ -20,7 +20,7 @@ function Navbar() {
      </NavLink>
       <Bars />
       <NavMenu>
-      <NavLink to='/home' activeStyle>
+      <NavLink to='/' activeStyle>
           Home
         </NavLink>
 
@@ -30,10 +30,10 @@ function Navbar() {
         <NavLink to='/listings' activeStyle>
           Listings
         </NavLink>
-        <NavLink to='/contact-us' activeStyle>
+        <NavLink to ='/contact-us' activeStyle>
           Contact Us
         </NavLink>
-       <NavLink to='/Book' activeStyle>
+       <NavLink to='/Book-now' activeStyle>
           Book Now
         </NavLink>
         <NavLink to='/Location' activeStyle>
@@ -42,7 +42,7 @@ function Navbar() {
     
       </NavMenu>
       <NavBtn>
-        <NavBtnLink to='/signin'>Search</NavBtnLink>
+        <NavBtnLink to='/Search'>Search</NavBtnLink>
       </NavBtn>
     </Nav>
   </>
