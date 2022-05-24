@@ -1,7 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
-import { FaBars } from 'react-icons/fa';
-import {NavLink as Link} from 'react-dom'
 import {
   Nav,
   NavLink,
@@ -13,18 +10,13 @@ import {
 
 function Navbar() {
   return (
-    <>
     <Nav>
-      <NavLink to='/'>
-  
-     </NavLink>
       <Bars />
       <NavMenu>
-      <NavLink to='/' activeStyle>
+        <NavLink to='/' activeStyle>
           Home
         </NavLink>
-
-        <NavLink to='/About' activeStyle>
+        <NavLink to='/about' activeStyle>
           About
         </NavLink>
         <NavLink to='/listings' activeStyle>
@@ -33,19 +25,17 @@ function Navbar() {
         <NavLink to ='/contact-us' activeStyle>
           Contact Us
         </NavLink>
-       <NavLink to='/Book-now' activeStyle>
+        <NavLink to='/book' activeStyle>
           Book Now
         </NavLink>
-        <NavLink to='/Location' activeStyle>
+        <NavLink to='/location' activeStyle>
           Location
         </NavLink>
-    
       </NavMenu>
       <NavBtn>
-        <NavBtnLink to='/Search'>Search</NavBtnLink>
+        <NavBtnLink to='/search'>Search</NavBtnLink>
       </NavBtn>
     </Nav>
-  </>
 );
 };
 

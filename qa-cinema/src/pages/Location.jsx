@@ -7,10 +7,10 @@ function Location() {
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
-      height: '90vh'
-    }}
-  >
-    <h1>Location</h1>
+      height: '90vh',
+      fontColor: 'white'
+    }}>
+    <h1>Hello!</h1>
   </div>
 );
 };
