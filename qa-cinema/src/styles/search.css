@@ -1,0 +1,54 @@
+.search-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+
+}
+
+input {
+    font-size: 20px;
+    padding-left: 5px;
+    margin-top: 20px;
+}
+
+.movie-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 1rem;
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+
+}
+
+.card > .header {
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #777
+}
+
+.card > .body {
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #777
+}
+
+.hide {
+    display: none;
+}
