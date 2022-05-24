@@ -11,6 +11,7 @@ function BookNow() {
     }}
   >
     <h1>Book Now</h1>
+  
   </div>
 );
 };
