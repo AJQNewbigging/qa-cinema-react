@@ -1,10 +1,9 @@
 import React from 'react';
 import './App.css';
-import './styles/Slider.css'
-import './styles/MovieCard.css'
+import './styles/Slider.css';
 import './home.css';
-import './components/Navbar'
-import MovieCard from './components/MovieCard'
+import './components/Navbar';
+import ContactForm from './components/ContactForm';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Slider from './components/Slider';
@@ -18,8 +17,8 @@ import Location from './pages/Location';
 
 function App() {
 return (
-<div className='home'>
 <Router>
+<div className='home'>
 <Navbar/>
 <Routes>
         <Route path='/home' exact component={Home} />
@@ -29,19 +28,11 @@ return (
         <Route path='/Book-now' component={BookNow} />
         <Route path='/Location' component={Location} /> 
        </Routes>
-     </Router>
-<Slider slides={SliderData} />
-<>
-<MovieCard/>
-
-</>
+       <Slider slides={SliderData} />
+<ContactForm/> 
+     
 </div>
-
-
-
-
-
-
+</Router>
   );
 }
 
