@@ -7,7 +7,6 @@ import {StyledContactForm} from '../styles/ContactForm.style';
 import styled from "styled-components"; 
 
 function ContactForm() {
-    <h4>hello world</h4>
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -43,7 +42,7 @@ function ContactForm() {
 
           <span>
             Email
-            <p>hello@tesla.com</p>
+            <p>help@qa.com</p>
           </span>
         </div>
 
@@ -52,7 +51,7 @@ function ContactForm() {
 
           <span>
             Phone
-            <p>+49 (800) 335 35 35</p>
+            <p>+44 0000000000</p>
           </span>
         </div>
 
@@ -61,7 +60,7 @@ function ContactForm() {
 
           <span>
             Address
-            <p>844 Morris Park avenue</p>
+            <p>1 St Katherines Way</p>
           </span>
         </div>
 
@@ -70,7 +69,7 @@ function ContactForm() {
 
           <span>
             Working hours
-            <p>8 a.m. – 11 p.m.</p>
+            <p>8:30 a.m. – 17:00 p.m.</p>
           </span>
         </div>
       </div>
@@ -130,6 +129,6 @@ function ContactForm() {
       </form>
     </StyledContactForm>
   );
-}
+};
 
 export default ContactForm;
