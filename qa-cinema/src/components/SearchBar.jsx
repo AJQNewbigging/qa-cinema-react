@@ -30,7 +30,7 @@ function SearchBar() {
         })
     })
     
-  return (
+return (
      <>
         <div class="search-wrapper">
             <label for="search">Search All Listings</label>
