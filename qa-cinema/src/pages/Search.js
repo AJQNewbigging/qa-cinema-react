@@ -6,3 +6,5 @@ function Search() {
         <SearchBar />
     );
 };
+
+export default Search

@@ -1,18 +1,10 @@
 import React from 'react'
+import ListingsBar from '../components/ListingsBar'
 
 function Listings() {
   return (
-    <div
-    style={{
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      height: '90vh'
-    }}
-  >
-    <h1>Listings</h1>
-  </div>
-);
-};
+    <ListingsBar />
+  )
+}
 
 export default Listings
