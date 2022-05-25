@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/search.css'
 
 function ListingsBar() {
+    
     const movieCardTemplate = document.querySelector("[data-movie-template]")
     const movieCardContainer = document.querySelector("[data-movie-cards-container]")
     const searchInput = document.querySelector("[data-search]")
