@@ -8,6 +8,7 @@ import About from './pages/About';
 import BookNow from './pages/BookNow';
 import ContactUs from './pages/ContactUs';
 import Listings from './pages/Listings';
+import Search from './pages/Search';
 import Location from './pages/Location';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
