@@ -8,8 +8,8 @@ function SearchBar() {
     
     let movies = []
     
-    function handleChange(i) {
-        const value = i.target.value.toLowerCase()
+    function handleChange(e) {
+        const value = e.target.value.toLowerCase()
         movies.forEach(movie => {
             const isVisible = movie.name.toLowerCase().includes(value) || movie.genre.toLowerCase().includes(value)
             movie.element.classList.toggle("hide", !isVisible)
@@ -47,6 +47,8 @@ function SearchBar() {
   )
 }
 
+export default SearchBar
+
 // Original solution using an event listener
 
 // function SearchBar() {
@@ -83,7 +85,7 @@ function SearchBar() {
 //      <>
 //         <div class="search-wrapper">
 //             <label for="search">Search All Listings</label>
-//             <input type="search" id="search" placeholder="Search..." onChange={handleChange} data-search></input>
+//             <input type="search" id="search" placeholder="Search..." data-search></input>
 //         </div>
 //         <div class="movie-cards" data-movie-cards-container></div>
 //         <template data-movie-template>
@@ -96,4 +98,4 @@ function SearchBar() {
 //   )
 // }
 
-export default SearchBar
+// export default SearchBar
