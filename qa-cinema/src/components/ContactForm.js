@@ -25,7 +25,7 @@ function ContactForm() {
   };
 
   const styledIcon = {
-    fontSize: '1.6rem',
+    fontSize: '2.6rem',
   };
 
   const onSubmit = (e) => {
@@ -51,7 +51,7 @@ function ContactForm() {
 
           <span>
             Phone
-            <p>+44 0000000000</p>
+            <p>0345 074 7829</p>
           </span>
         </div>
 
@@ -60,7 +60,11 @@ function ContactForm() {
 
           <span>
             Address
-            <p>1 St Katherines Way</p>
+            <p>1 St Katharines Way</p>
+            <p>London</p>
+            <p>E1W 1UN</p> 
+            
+      
           </span>
         </div>
 

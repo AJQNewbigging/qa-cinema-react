@@ -12,8 +12,8 @@ function ContactUs() {
       height: '90vh'
     }}
   >
-    <h1>Contact-Us</h1>
-    <ContactForm/>
+    {/* <h1>Contact-Us</h1> */}
+    <ContactForm/> 
   
 
   </div>
