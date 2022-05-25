@@ -33,7 +33,7 @@ function SearchBar() {
   return (
      <>
         <div class="search-wrapper">
-            <label for="search">Search Movies</label>
+            <label for="search">Search All Listings</label>
             <input type="search" id="search" data-search></input>
         </div>
         <div class="movie-cards" data-movie-cards-container></div>
