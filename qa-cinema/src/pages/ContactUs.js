@@ -1,5 +1,6 @@
 import React from 'react'
-
+import ContactForm from '../components/ContactForm'; 
+import styled from "styled-components"; 
 
 function ContactUs() {
   return (
@@ -12,6 +13,7 @@ function ContactUs() {
     }}
   >
     <h1>Contact-Us</h1>
+    <ContactForm/>
   
 
   </div>

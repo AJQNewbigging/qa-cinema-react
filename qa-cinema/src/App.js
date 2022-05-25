@@ -4,6 +4,7 @@ import './styles/Slider.css'
 import './styles/MovieCard.css'
 import './home.css';
 import './components/Navbar'
+import './components/ContactForm' 
 import MovieCard from './components/MovieCard'
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route,} from 'react-router-dom';
@@ -38,8 +39,8 @@ return (
         
 <div>
 <Slider slides={SliderData} />
-<MovieCard />
-
+<MovieCard/>
+<ContactUs/>
 </div>
 
 </div>
