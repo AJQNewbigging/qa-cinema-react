@@ -16,7 +16,7 @@ function SearchBar() {
         })
     }
     
-    fetch("http://127.0.0.1:3000/movie")
+    fetch("http://127.0.0.1:3001/movie")
         .then(res => res.json())
         .then(data => {
         movies = data.map(movie => {
