@@ -1,7 +1,5 @@
 import styled from "styled-components"; 
 export const StyledContactForm = styled.div`
-  background-color: ${({ theme }) => theme.colors.black};
-  color: ${({ theme }) => theme.colors.white};
   display: flex;
   border-radius: 20px;
   padding: 5px;
@@ -54,8 +52,6 @@ export const StyledContactForm = styled.div`
           height: 35px;
           border-radius: 5px;
           border: none;
-          color: ${({ theme }) => theme.colors.white};
-          background-color: ${({ theme }) => theme.colors.grey};
           padding: 5px;
           font-family: 'Poppins';
         }
@@ -64,10 +60,8 @@ export const StyledContactForm = styled.div`
     button {
       margin-top: 30px;
       padding: 8px 15px;
-      background-color: ${({ theme }) => theme.colors.blue};
       border: none;
       font-size: 1rem;
-      color: ${({ theme }) => theme.colors.white};
       border-radius: 5px;
       cursor: pointer;
       &:hover {
