@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/search.css'
 
 function SearchBar() {
+
     const movieCardTemplate = document.querySelector("[data-movie-template]")
     const movieCardContainer = document.querySelector("[data-movie-cards-container]")
     const searchInput = document.querySelector("[data-search]")
@@ -30,11 +31,11 @@ function SearchBar() {
         })
     })
     
-return (
+  return (
      <>
         <div class="search-wrapper">
             <label for="search">Search All Listings</label>
-            <input type="search" id="search" data-search></input>
+            <input type="search" id="search" placeholder="Search..." data-search></input>
         </div>
         <div class="movie-cards" data-movie-cards-container></div>
         <template data-movie-template>
