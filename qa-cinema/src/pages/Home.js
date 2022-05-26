@@ -16,8 +16,11 @@ function Home() {
       <Slider slides={SliderData} />
    
       
+
+
+      
       <div className='title'>
-          <h4>TOP FILMS</h4>
+        <h4 id=''>TOP FILMS</h4>
         <MovieCard />
        </div>
      
