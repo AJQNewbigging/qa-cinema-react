@@ -19,7 +19,7 @@ export const SliderData =[
       {
         image:
           'https://cdn.mos.cms.futurecdn.net/SpLRLP8MjPEu8Qgkbisht6-1024-80.jpg.webp'
-      }
+      },
 
 ]
 
