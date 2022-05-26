@@ -88,6 +88,7 @@ function ContactForm() {
               type='text'
               name='name'
               value={name}
+              required 
               placeholder='Your name'
               onChange={onChange}
             />
@@ -123,6 +124,7 @@ function ContactForm() {
               type='text'
               name='message'
               value={message}
+              required
               placeholder='Your message'
               onChange={onChange}
             />
