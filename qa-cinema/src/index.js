@@ -14,19 +14,19 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
       <Router>
-      <Routes>
-        <Route path='/' element={<App />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="listings" element={<Listings />} />
-          <Route path="contact-us" element={<ContactUs />} />
-          <Route path="book" element={<BookNow />} />
-          <Route path="location" element={<Location />} />
-          {/* <Route path="search" element={<Search />} /> */}
-        </Route>
-        {/* <Route path='*' element={<Error />} /> */}
-      </Routes>
-    </Router>
+        <Routes>
+          <Route path='/' element={<App />}>
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="listings" element={<Listings />} />
+            <Route path="contact-us" element={<ContactUs />} />
+            <Route path="book" element={<BookNow />} />
+            <Route path="location" element={<Location />} />
+            {/* <Route path="search" element={<Search />} /> */}
+          </Route>
+          {/* <Route path='*' element={<Error />} /> */}
+        </Routes>
+      </Router>
     </React.StrictMode>,
     document.getElementById('root')
 );
