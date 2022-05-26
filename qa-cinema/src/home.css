@@ -10,6 +10,7 @@ overflow-x: hidden;
 }
 
 
+
 .home{
 
     background-color: var(--main-color);
@@ -17,4 +18,13 @@ overflow-x: hidden;
     width: 100vw;
    
 }
+.title{
+
+    color: white;
+}
+
+
+
+
+
  
