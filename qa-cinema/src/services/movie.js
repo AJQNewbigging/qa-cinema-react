@@ -1,15 +1,19 @@
 
 
-export function getMovie(id) {
-    var movie = null;
-    fetch(`localhost:3001/movie/${id}`)
-        .then(response => {
-            movie = JSON.parse(response);
-        })
-        .catch(error => {
-            console.log(`Failed to retrieve movie: ${error}`);
-        });
-    
+export async function getMovie(id) {
+    var movie = await fetch(`http://localhost:3001/movie/${id}`, {
+        method: 'GET',
+        // body: JSON.stringify(object),
+        headers: {
+            'accept': 'application/json'
+        }
+    }).then(response => {
+        if (response.ok) return response.json();
+        else throw new Error("Whoops");
+    }).catch(error => {
+        throw error;
+    });
+    console.log(movie);
     return movie;
 }
 
