@@ -1,0 +1,46 @@
+.h1 {
+    color: white;
+    font-size: 64px;
+    border-color: white;
+    border-bottom-style: solid;
+    text-align: center;
+}
+
+.h2 {
+    font-size: 40px;
+    color: white;
+    padding: 1%;
+}
+
+.p {
+    font-size: 24px;
+    overflow-wrap: break-word;
+    color: white;
+    padding-left: 1%;
+}
+
+.a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.body {
+    background-color: #051622;
+    overflow: visible;
+    height: 100%;
+}
+
+.img {
+    width: 15%;
+    height: 15%;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.h3 {
+    font-size: 40px;
+    color: white;
+}
