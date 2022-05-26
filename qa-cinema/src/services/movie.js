@@ -2,7 +2,7 @@
 
 export function getMovie(id) {
     var movie = null;
-    fetch(`localhost:3001/movie/${id}`)
+    fetch(`http://localhost:3001/movie/${id}`)
         .then(response => {
             movie = JSON.parse(response);
         })
@@ -15,7 +15,7 @@ export function getMovie(id) {
 
 export function getMovies() {
     var movies = [];
-    fetch(`localhost:3001/movie`)
+    fetch(`http://localhost:3001/movie`)
         .then(response => {
             movies = JSON.parse(response);
         })
