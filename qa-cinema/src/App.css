@@ -1,6 +1,12 @@
 
 .App {
   text-align: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+.app-content {
+  padding-bottom: 2.5rem;
 }
 
 .title {
