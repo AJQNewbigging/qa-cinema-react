@@ -1,3 +1,40 @@
 .container {
     color: white;
 }
+
+.bar {
+    border-style: double;
+    width: 80%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+
+.error-bar {
+    border-color: #69170a;
+    background-color: #f2c2bb;
+    color: #69170a;
+}
+
+.success-bar {
+    border-color: #03691b;
+    background-color: #a9ebb8;
+    color: #03691b;
+}
+
+.booking-form {
+    display: flex;
+    
+}
+
+.form-part {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input {
+    margin: 5px;
+    align-self: flex-end;
+}
+
