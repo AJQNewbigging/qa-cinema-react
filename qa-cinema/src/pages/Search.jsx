@@ -11,7 +11,7 @@ export default function SearchMovies() {
     const Location = useLocation();
 
     useEffect(() => {
-        fetch(`http://localhost:3001/movie`, {
+        fetch(`http://localhost:3001/movie?poster=true`, {
             method: 'GET',
             headers: {
                 'accept': 'application/json'

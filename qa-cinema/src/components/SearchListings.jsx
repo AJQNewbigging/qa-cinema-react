@@ -8,10 +8,11 @@ export default function Listings(props) {
     return (
 
         <div className="movie-cards">
-           <p>{search.name}</p> 
-           <p>{search.genre}</p>
-           <p>{search.director}</p>
-           <p>{search.certification}</p>
+            <img src={search.poster}></img>
+            <p>{search.name}</p> 
+            <p>{search.genre}</p>
+            <p>{search.director}</p>
+            <p>{search.certification}</p>
         </div>
         
     )
