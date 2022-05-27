@@ -1,5 +1,6 @@
 import React from 'react'
-
+import ContactForm from '../components/ContactForm'; 
+import styled from "styled-components"; 
 
 function ContactUs() {
   return (
@@ -11,7 +12,8 @@ function ContactUs() {
       height: '90vh'
     }}
   >
-    <h1>Contact-Us</h1>
+    {/* <h1>Contact-Us</h1> */}
+    <ContactForm/> 
   
 
   </div>

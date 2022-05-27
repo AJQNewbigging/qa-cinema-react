@@ -6,20 +6,20 @@ export const SliderData =[
       },
       {
         image:
-          'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic1.srcdn.com%2Fwordpress%2Fwp-content%2Fuploads%2F2020%2F01%2FBatman-86-Comic-Cover-Art.jpg&f=1&nofb=1'
+          'https://www.odeon.co.uk/media/kn1n1iov/tgm_odeon_carousel.jpg?center=0.48695652173913045,0.63082437275985659&mode=crop&width=970&height=480&rnd=132961302261500000'
       },
       {
         image:
-          'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.devopsinstitute.com%2Fwp-content%2Fuploads%2F2017%2F09%2FQA_Logo_2019.png&f=1&nofb=1'
+          'https://www.slashfilm.com/wp/wp-content/images/bobsburgers-banner.jpg'
       },
       {
         image:
-          'https://images.unsplash.com/photo-1475189778702-5ec9941484ae?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80'
+          'https://i1.wp.com/www.theilluminerdi.com/wp-content/uploads/2020/02/minions-unipics-1080x793-mobile-5e34c87c270e5-1-1288x724-1.jpg?resize=1280%2C640&ssl=1'
       },
       {
         image:
-          'https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80'
-      }
+          'https://cdn.mos.cms.futurecdn.net/SpLRLP8MjPEu8Qgkbisht6-1024-80.jpg.webp'
+      },
 
 ]
 
