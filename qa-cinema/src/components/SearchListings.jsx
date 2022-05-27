@@ -1,14 +1,15 @@
 import React from 'react';
-import Search from './SearchMovies';
+import { Buffer } from "buffer";
 
 export default function Listings(props) {
 
     const search = props.search
+    const imageBuffer = Buffer.from(search.poster.img.data.data);
 
     return (
 
         <div className="movie-cards">
-            <img src={search.poster}></img>
+            <img src={`data:${search.poster.img.contentType};base64, ${imageBuffer.toString("base64")}`} alt={search.poster.name} />
             <p>{search.name}</p> 
             <p>{search.genre}</p>
             <p>{search.director}</p>
